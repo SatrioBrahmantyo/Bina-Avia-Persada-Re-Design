@@ -1,63 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bina Avia Persada</title>
-    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="style/style.css" />
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
-    <div>
-        <div id="Nama-Perusahaan">
-            <img src="img/logo.png" alt="Bina Avia Persada Logo">
-            <p>Bina Avia Persada</p>
-        </div>
+    <div
+      class="flex items-center justify-between px-10 h-[100px] bg-color-white shadow-xl"
+    >
+      <div id="Nama-Perusahaan" class="flex items-center gap-5">
+        <img
+          src="img/LogoBAP.png"
+          alt="Bina Avia Persada Logo"
+          class="w-[50px] h-[50px]"
+        />
+        <p class="font-bold text-2xl text-[#D1AC4D]">Bina Avia Persada</p>
+      </div>
 
-        <div id="Navar-List">
-
-        </div>
+      <div id="Navar-List">
+        <ul class="flex items-center gap-10 font-medium text-lg">
+          <li><a href="#" class="a-navbar">Home</a></li>
+          <li><a href="#" class="a-navbar">About Us</a></li>
+          <li><a href="#" class="a-navbar">Alumni</a></li>
+          <li>
+            <a
+              href="#"
+              class="px-10 py-3 bg-[#D1AC4D] text-[#F8F9FA] rounded-full hover:text-[#123A6B] duration-300"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
 
     <!-- Close Navbar -->
 
     <!-- Hero Section -->
+    <div
+      class="relative flex items-center px-10 mb-25 h-[600px] bg-[url('img/LandingPage/LP_Hero_Section.png')] bg-cover bg-center"
+    >
+      <!-- Overlay Gradient -->
+      <div
+        class="absolute inset-0 w-1/2 bg-gradient-to-r from-[#123A6B]/100 via-[#123A6B]/95 to-transparent"
+      ></div>
 
+      <!-- Teks (ikut flex, jadi tetap center) -->
+      <div id="Hero-Text" class="relative z-10 w-1/2 text-[#F8F9FA]">
+        <h1 class="text-6xl font-bold mb-6">Bina Avia</h1>
+        <h1 class="text-6xl font-bold mb-6 text-[#D1AC4D]">Persada</h1>
+        <p class="text-3xl mb-8 font-semibold">
+          Membentuk Profesional Penerbangan Masa Depan
+        </p>
+        <a
+          href="#"
+          class="px-8 py-4 bg-[#D1AC4D] text-[#F8F9FA] rounded-full text-lg font-medium hover:text-[#123A6B] duration-300"
+          >Jelajahi Program Kami</a
+        >
+      </div>
+    </div>
     <!-- Close Hero Section -->
 
     <!-- Main Section -->
 
-        <!-- Best Program -->
+    <!-- Best Program -->
+    <div class="flex flex-col items-center px-10 mb-25 gap-10">
+      <div class="text-center">
+        <h2 class="text-5x1 font-bold mb-3">Program Pelatihan Unggulan Kami</h2>
+        <p>
+          Pilih jalur karier yang paling cocok dengan impianmu di dunia
+          penerbangan.
+        </p>
+      </div>
 
-        <!-- Close Best Program -->
+      <div>
+        <div class="grid grid-cols-3 gap-8">
+          <!-- Program Card 1 -->
+          <div class="bg-color-white shadow-lg rounded-lg overflow-hidden">
+            <img
+              src="img/LandingPage/FlighAttendant.png"
+              alt="Program 1"
+              class="w-full h-62 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2">Pramugari</h3>
+              <p class="text-gray-600">
+                Pelatihan Komprehensi untuk karir sebagai pramugari profesional.
+              </p>
+            </div>
+          </div>
 
-        <!-- Why Choose BAP -->
+          <!-- Program Card 2 -->
+          <div class="bg-color-white shadow-lg rounded-lg overflow-hidden">
+            <img
+              src="img/LandingPage/GroundStaff.png"
+              alt="Program 2"
+              class="w-full h-62 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2">Ground Staff</h3>
+              <p class="text-gray-600">
+                Pelatihan Komprehensi untuk karir sebagai staff airline profesional.
+              </p>
+            </div>
+          </div>
 
-        <!-- Close Why Choose BAP -->
+          <!-- Program Card 3 -->
+          <div class="bg-color-white shadow-lg rounded-lg overflow-hidden">
+            <img
+              src="img/LandingPage/Ticketing.png"
+              alt="Program 3"
+              class="w-full h-62 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2">Ticketing & Reservasi</h3>
+              <p class="text-gray-600">
+                Pelatihan Komprehensi untuk karir sebagai ticketing & reservasi profesional.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Close Best Program -->
 
-        <!-- Our Partnership -->
+    <!-- Why Choose BAP -->
 
-        <!-- Close Our Partnership -->
+    <!-- Close Why Choose BAP -->
 
-        <!-- Galleries & Activity -->
+    <!-- Our Partnership -->
 
-        <!-- Close Galleries & Activity -->
+    <!-- Close Our Partnership -->
 
-        <!-- Testimonial -->
+    <!-- Galleries & Activity -->
 
-        <!-- Close Testimonial -->
+    <!-- Close Galleries & Activity -->
 
-        <!-- FAQ -->
+    <!-- Testimonial -->
 
-        <!-- Close FAQ -->
+    <!-- Close Testimonial -->
+
+    <!-- FAQ -->
+
+    <!-- Close FAQ -->
 
     <!-- Close Main Section -->
 
     <!-- Footer Section -->
 
     <!-- Close Footer Section -->
-</body>
+  </body>
 </html>
