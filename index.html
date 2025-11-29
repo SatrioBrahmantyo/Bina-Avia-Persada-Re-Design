@@ -43,7 +43,7 @@
 
     <!-- Hero Section -->
     <div
-      class="relative flex items-center px-10 mb-25 h-[600px] bg-[url('img/LandingPage/LP_Hero_Section.png')] bg-cover bg-center"
+      class="relative flex items-center px-10 mb-25 h-[700px] bg-[url('img/LandingPage/LP_Hero_Section.png')] bg-cover bg-center"
     >
       <!-- Overlay Gradient -->
       <div
@@ -360,7 +360,7 @@
 
       <!-- Content -->
       <div>
-        <div class="grid grid-cols-5 px-10 gap-10 mb-25 justify-center">
+        <div class="grid grid-cols-5 px-10 gap-8 mb-25 justify-center">
           <img
             src="img/LandingPage/Gallery/Gallery1.png"
             alt="Gallery Image 1"
@@ -397,106 +397,92 @@
     </div>
     <!-- Close Galleries & Activity -->
 
-    <!-- Testimonial -->
-    <div>
-      <!-- Headline -->
-      <div class="px-10 text-center mb-10">
-        <h3 class="text-2xl font-bold mb-3">Apa Kata Alumni Kami?</h3>
-        <p class="text-[#2B2B2B">Cerita sukses dari mereka yang sudah lebih dulu terbang.</p>
+    <!-- Testimonial Section -->
+<div class="px-10 mb-20">
+  
+  <!-- Headline -->
+  <div class="text-center mb-10">
+    <h3 class="text-2xl font-bold mb-3">Apa Kata Alumni Kami?</h3>
+    <p class="text-[#2B2B2B">Cerita sukses dari mereka yang sudah lebih dulu terbang.</p>
+  </div>
+
+  <!-- Slider Container -->
+  <div class="relative">
+
+    <!-- Left Button -->
+    <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 bg-[#F8F9FA] text-[#123A6B] p-3 rounded-full shadow hover:bg-[#123A6B] text-[#F8F9FA] z-10">
+      ‹
+    </button>
+
+    <!-- Right Button -->
+    <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 bg-[#F8F9FA] text-[#123A6B] p-3 rounded-full shadow hover:bg-[#123A6B] text-[#F8F9FA] z-10">
+      ›
+    </button>
+
+    <!-- Slider Viewport -->
+    <div class="overflow-hidden">
+      <!-- Slider Track -->
+      <div id="sliderTrack" class="flex gap-8 transition-transform duration-500">
+
+        <!-- CARD 1 -->
+        <div class="bg-[#123A6B] shadow-lg rounded-lg p-6 min-w-[300px]">
+          <div class="flex items-center mb-4">
+            <img src="img/LandingPage/Testimonial/Alumni1.png" class="w-16 h-16 rounded-full mr-4" />
+            <div>
+              <h4 class="text-xl font-semibold text-[#D1AC4D]">Siti Aisyah</h4>
+              <p class="text-[#D1AC4D]">Pramugari, Garuda Indonesia</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="bg-[#123A6B] shadow-lg rounded-lg p-6 min-w-[300px]">
+          <div class="flex items-center mb-4">
+            <img src="img/LandingPage/Testimonial/Alumni2.png" class="w-16 h-16 rounded-full mr-4" />
+            <div>
+              <h4 class="text-xl font-semibold text-[#D1AC4D]">Lina Arifah</h4>
+              <p class="text-[#D1AC4D]">Pramugari, Lion Air</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="bg-[#123A6B] shadow-lg rounded-lg p-6 min-w-[300px]">
+          <div class="flex items-center mb-4">
+            <img src="img/LandingPage/Testimonial/Alumni3.png" class="w-16 h-16 rounded-full mr-4" />
+            <div>
+              <h4 class="text-xl font-semibold text-[#D1AC4D]">Hesti Prasetya Dewi</h4>
+              <p class="text-[#D1AC4D]">Pramugari, Citilink</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="bg-[#123A6B] shadow-lg rounded-lg p-6 min-w-[300px]">
+          <div class="flex items-center mb-4">
+            <img src="img/LandingPage/Testimonial/Alumni4.png" class="w-16 h-16 rounded-full mr-4" />
+            <div>
+              <h4 class="text-xl font-semibold text-[#D1AC4D]">Rina Wijaya</h4>
+              <p class="text-[#D1AC4D]">Pramugari, Batik Air</p>
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
       </div>
+    </div>
+    <!-- Close Testimonial Section -->
 
-      <!-- Content -->
-      <div class="px-10 mb-25">
-        <div class="flex flex-row gap-8">
+      <!-- FAQ -->
 
-          <!-- Testimonial Card 1 -->
-          <div class="bg-color-white shadow-lg rounded-lg p-6">
-            <div class="flex items-center mb-4">
-              <img
-                src="img/LandingPage/Testimonial/Alumni1.png"
-                alt="Alumni 1"
-                class="w-16 h-16 rounded-full mr-4"
-              />
-              <div>
-                <h4 class="text-xl font-semibold">Siti Aisyah</h4>
-                <p class="text-gray-600">Pramugari, Garuda Indonesia</p>
-              </div>
-            </div>
-          </div>
+      <!-- Close FAQ -->
 
-          <!-- Testimonial Card 2 -->
-          <div class="bg-color-white shadow-lg rounded-lg p-6">
-            <div class="flex items-center mb-4">
-              <img
-                src="img/LandingPage/Testimonial/Alumni2.png"
-                alt="Alumni 2"
-                class="w-16 h-16 rounded-full mr-4"
-              />
-              <div>
-                <h4 class="text-xl font-semibold">Budi Santoso</h4>
-                <p class="text-gray-600">Ground Staff, Lion Air</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonial Card 3 -->
-          <div class="bg-color-white shadow-lg rounded-lg p-6">
-            <div class="flex items-center mb-4">
-              <img
-                src="img/LandingPage/Testimonial/Alumni3.png"
-                alt="Alumni 3"
-                class="w-16 h-16 rounded-full mr-4"
-              />
-              <div>
-                <h4 class="text-xl font-semibold">Dewi Lestari</h4>
-                <p class="text-gray-600">Pramugari, Citilink</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonial Card 4 -->
-          <div class="bg-color-white shadow-lg rounded-lg p-6">
-            <div class="flex items-center mb-4">
-              <img
-                src="img/LandingPage/Testimonial/Alumni4.png"
-                alt="Alumni 4"
-                class="w-16 h-16 rounded-full mr-4"
-              />
-              <div>
-                <h4 class="text-xl font-semibold">Rina Wijaya</h4>
-                <p class="text-gray-600">Ground Staff, AirAsia</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonial Card 5 -->
-          <div class="bg-color-white shadow-lg rounded-lg p-6">
-            <div class="flex items-center mb-4">
-              <img
-                src="img/LandingPage/Testimonial/Alumni5.png"
-                alt="Alumni 5"
-                class="w-16 h-16 rounded-full mr-4"
-              />
-                <div>
-                <h4 class="text-xl font-semibold">Andi Pratama</h4>
-                <p class="text-gray-600">Ticketing & Reservasi, Pelita Air</p>
-                </div>
-              </div>
-              </div>
-
-            </div>
-            </div>
-          </div>
-          <!-- Close Testimonial -->
-
-          <!-- FAQ -->
-
-          <!-- Close FAQ -->
-
-          <!-- Close Main Section -->
+      <!-- Close Main Section -->
 
     <!-- Footer Section -->
 
     <!-- Close Footer Section -->
   </body>
+     <script src="js/script.js"></script>
 </html>
